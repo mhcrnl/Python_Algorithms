@@ -7,7 +7,7 @@ def create_array(size=10,max=50):
 
 def bogo_sort(a):
 	def is_sorted(a):
-		for i in xrange(1,len(a)):
+		for i in range(1,len(a)):
 			if a[i]<a[i-1]: return False
 		return True
 
@@ -18,6 +18,6 @@ def bogo_sort(a):
 	return ct,a 
 
 a=create_array(10,10)
-print "Unsorted:",a
+print( "Unsorted:",a)
 ct,s=bogo_sort(a)
-print "Sorted:  ",s 
+print ("Sorted:  ",s )

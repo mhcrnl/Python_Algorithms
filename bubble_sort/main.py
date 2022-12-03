@@ -10,6 +10,6 @@ def bubble_sort(arr):
 	return arr
 
 a=[4,3,2,1]
-print a
+print( a)
 a=bubble_sort(a)
-print a
+print(a)
